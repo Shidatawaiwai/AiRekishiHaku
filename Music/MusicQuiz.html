@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width,initial-scale = 1">
+        <title>愛・歴史博</title>
+        <link rel="stylesheet" href="./../style.css">
+        
+        <style>
+
+        </style>
+
+    </head>
+
+    <body>
+        <div>
+            <p><a href="./../index.html">戻る</a></p>
+            <h1>音楽クイズ</h1>
+            <h2>クイズを解くと豪華景品がもらえるかも！解き終わったら画面をスタッフに見せよう！</h2>
+
+            <p>
+                問1：最初にピアノと呼ばれるようになった楽器は？<br>
+                <input type="radio" name="Q1" value="saifon">1:サイフォン<br>
+                <input type="radio" name="Q1" value="dijiridu">2:ディジリドゥ<br>
+                <input type="radio" name="Q1" value="chenbaro">3:チェンバロ<br>
+                <input type="radio" name="Q1" value="kafon">4:カホン<br>
+                <input type="radio" name="Q1" value="doppura">5:ドップラー
+            </p>
+            
+            <p>
+                問2：弦楽器と呼ばれる楽器は？<br>
+                <input type="radio" name="Q2" value="thinpani">1:ティンパニ<br>
+                <input type="radio" name="Q2" value="sairofon">2:サイロフォン<br>
+                <input type="radio" name="Q2" value="mandorin">3:マンドリン<br>
+                <input type="radio" name="Q2" value="korunetto">4:コルネット<br>
+                <input type="radio" name="Q2" value="kuramubonn">5:クラムボン
+            </p>
+
+            <p>
+                問3：ピアノの魔術師といえば？<br>
+                <input type="radio" name="Q3">1:パガニーニ<br>
+                <input type="radio" name="Q3">2:リスト<br>
+                <input type="radio" name="Q3">3:ロッシーニ<br>
+                <input type="radio" name="Q3">4:フルーチェ
+            </p>
+
+            <p>
+                問4：人間の可聴域は？<br>
+                <input type="radio" name="Q4">1:20~20,000Hz<br>
+                <input type="radio" name="Q4">2:100~50,000Hz<br>
+                <input type="radio" name="Q4">3:200~65,000Hz<br>
+                <input type="radio" name="Q4">4:3,000~10,000Hz
+            </p>
+            
+            <input type="button" value="回答" onclick="Ans()"></p>
+        </div>
+        <h1 id="Score"></h1>
+        <p>2点以上ならスタッフに声をかけて豪華景品をもらおう！<br>
+            もし2点未満なら、再挑戦しよう！
+        </p>
+        <p>答えが気になる方はスタッフに聞いてください</p>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="./../JavaScripts/someFunctions.js"></script>
+        <script src="./MusicQuiz.js"></script>
+
+        <noscript>
+            <p>javascriptが無効になっている可能性があります<br>有効にしてください</p>
+        </noscript>
+    </body>
+
+</html>

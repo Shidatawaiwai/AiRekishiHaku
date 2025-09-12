@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width = device-width,initial-scale = 1">
+        <title>愛・歴史博</title>
+        <link rel="stylesheet" href="./../style.css">
+        
+        <style>
+
+        </style>
+
+    </head>
+
+    <body>
+        <div>
+            <p><a href="./../index.html">戻る</a></p>
+            <h1>古典作品、神話、宗教クイズ！</h1>
+            <h2>クイズを解くと豪華景品がもらえるかも！解き終わったら画面をスタッフに見せよう！</h2>
+            <p>
+                難しくてよくわからない場合は…展示されているポスターを見よう！
+                <br>ヒントが載っているかも？
+            </p>
+
+            <p>
+                問1：橋姫が⿁になるために行った行動がベースとなっているものは、次のうちどれでしょう？<br>
+                <input type="radio" name="Q1">1:藁人形を木に打ち付ける呪法「丑の刻参り」<br>
+                <input type="radio" name="Q1">2:霊をおろし質問に答えてもらう儀式「こっくりさん」<br>
+                <input type="radio" name="Q1">3:姿を見られることなく⿁に近づく遊び「だるまさんが転んだ」
+            </p>
+            
+            <p>
+                問2：日本神話における現世（地上世界）の呼称は？<br>
+                <input type="radio" name="Q2">1:黄泉の国<br>
+                <input type="radio" name="Q2">2:葦原の中つ国<br>
+                <input type="radio" name="Q2">3:高天原
+            </p>
+
+            <p>
+                問3：ギルガメシュにおける神対人間の比率は？（神：人間の順）<br>
+                <input type="radio" name="Q3">1，2:1<br>
+                <input type="radio" name="Q3">2，5:1<br>
+                <input type="radio" name="Q3">3，10:9
+            </p>
+
+            <p>
+                問4：ハンムラビ法典碑上部に彫られている神様は？<br>
+                <input type="radio" name="Q4">1:イナンナ<br>
+                <input type="radio" name="Q4">2:エレシュキガル<br>
+                <input type="radio" name="Q4">3:サソリ人間<br>
+                <input type="radio" name="Q4">4:シャマシュ<br>
+                <input type="radio" name="Q4">5:ドゥムジ
+            </p>
+            
+            <p>問5：伊邪那岐命が左目を洗った時に誕生した神様は？<br>
+                <input type="radio" name="Q5">1:天照大御神<br>
+                <input type="radio" name="Q5">2:須佐之男命<br>
+                <input type="radio" name="Q5">3:月読命<br>
+            </p>
+
+            <p>問6：アマルナ革命が行われたのは？<br>
+                <input type="radio" name="Q6">1:プトレマイオス朝エジプト<br>
+                <input type="radio" name="Q6">2:アンティゴノス朝マケドニア<br>
+                <input type="radio" name="Q6">3:エジプト新王国<br>
+                <input type="radio" name="Q6">3:ササン朝ペルシア
+            </p>
+
+
+            <input type="button" value="回答" onclick="Ans()"></p>
+        </div>
+        <h1 id="Score"></h1>
+        <p>3点以上ならスタッフに声をかけて豪華景品をもらおう！<br>
+            もし3点未満なら、再挑戦しよう！
+        </p>
+        <p>答えが気になる方はスタッフに聞いてください</p>
+        
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="./../JavaScripts/someFunctions.js"></script>
+        <script src="./KotenQuiz.js"></script>
+
+        <noscript>
+            <p>javascriptが無効になっている可能性があります<br>有効にしてください</p>
+        </noscript>
+    </body>
+
+</html>
