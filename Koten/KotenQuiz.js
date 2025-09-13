@@ -15,9 +15,11 @@ let Ans = function(){
     score += trueOrFalse("Q4",jsonData.Koten.Q4);
     score += trueOrFalse("Q5",jsonData.Koten.Q5);
     score += trueOrFalse("Q6",jsonData.Koten.Q6);
+    score += trueOrFalse("Q7",jsonData.Koten.Q7);
+    score += trueOrFalse("Q8",jsonData.Koten.Q8);
 
     console.log(`得点は${score}点`);
 
-    selector.html(`得点は、${score}点です（満点は6点）`);
+    selector.html(`得点は、${score}点です（満点は8点）`);
 
 }
